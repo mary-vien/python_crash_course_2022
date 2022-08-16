@@ -19,7 +19,8 @@ print('hello, world")
 ~~~
 
 
-![attendees](screenshots/attendees_1.png)
+![attendees_1.png](screenshots/attendees_1.png)
+![cat.jpg](screenshots/cat.jpg)
 
 [Google Here](https://www.google.com/)
 
