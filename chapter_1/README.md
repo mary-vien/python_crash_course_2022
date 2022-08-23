@@ -18,12 +18,32 @@ git push origin master
 print('hello, world")
 ~~~
 
-
-![attendees_1.png](screenshots/attendees_1.png)
 ![cat.jpg](screenshots/cat.jpg)
 
-[Google Here](https://www.google.com/)
+[Погода в Києві на 10 днів](https://ua.sinoptik.ua/%D0%BF%D0%BE%D0%B3%D0%BE%D0%B4%D0%B0-%D0%BA%D0%B8%D1%97%D0%B2/10-%D0%B4%D0%BD%D1%96%D0%B2/)
 
+
+## EX 1-1
+***Визначення де ти знаходишся***
+```
+PS D:\python-crash-course-2022> dir 
+
+
+    Directory: D:\python-crash-course-2022
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        16.08.2022     22:37                chapter_1
+-a----        16.08.2022     22:30             23 .gitignoredir
+
+```
+
+***Після того як бачиш в якій папці, вводиш python назва папки/назва файлу.py***
+```
+PS D:\python-crash-course-2022> python chapter_1/hello.py
+hello, world
+```
 ## EX 1-2
 
 
