@@ -171,4 +171,55 @@ PS D:\python-crash-course-2022> python chapter_2/ex_2-7.py
                         Mariia!
 Mariia                  !
 Mariia!
-~~~
+```
+
+***
+## ex_2-8
+```
+print(5+3)
+print(15-7)
+print(2*4)
+print(32/4)
+print(2**3)
+```
+
+```
+PS D:\python-crash-course-2022> python chapter_2/ex_2-8.py
+8
+8
+8
+8.0
+8
+```
+***
+## ex_2-9
+```
+number = 28
+message = 'Маша робила цю домашку ' + str(number) + ' серпня ввечері'
+print(message)
+```
+
+```
+PS D:\python-crash-course-2022> python chapter_2/ex_2-9.py
+Маша робила цю домашку 28 серпня ввечері
+```
+***
+## ex_2-10
+```
+## пишу своє число
+number = 28
+## пишу склад повідомлення: слова + своє число + слова
+message = 'Маша робила цю домашку ' + str(number) + ' серпня ввечері'
+## виводжу повідомлення на екран
+print(message)
+```
+
+```
+PS D:\python-crash-course-2022> python chapter_2/ex_2-10.py
+Маша робила цю домашку 28 серпня ввечері
+```
+
+
+
+
+
