@@ -1,5 +1,6 @@
+# Chapter_3
 ## ex_3-1
-```
+```python
 names = ['Vasyl', 'Mariia', 'Cary', 'Mary']
 print(names[0])
 print(names[1])
@@ -17,7 +18,7 @@ Mary
 
 ***
 ## ex_3-2
-```
+```python
 names = ['vasyl', 'mariia', 'cary', 'mary']
 message_0 = 'В квартирі №38 живе ' + names[0].title() + '.'
 message_1 = 'В квартирі №38 живе ' + names[1].title() + '.'
@@ -37,7 +38,7 @@ PS D:\python-crash-course-2022> python chapter_3/ex_3-2.py
 
 ***
 ## ex_3-3
-```
+```python
 transport = ['ford mustang', 'volkswagen golf', 'метро', 'ardis']
 message_0 = 'В дитинстві я хотіла собі ' + transport[0].title() + '.'
 message_1 = 'Ставши дорослою я зрозуміла, що більш практичнішим є ' + transport[1].title() + '.'
@@ -56,7 +57,7 @@ PS D:\python-crash-course-2022> python chapter_3/ex_3-3.py
 
 ##
 ex_3-4
-```
+```python
 friends = ['monica', 'phebe', 'rachel']
 print('Dear, ' + friends[0].title() + ', I will be glad to see you at dinner.')
 print('Dear, ' + friends[1].title() + ', I will be glad to see you at dinner.')
@@ -72,7 +73,7 @@ Dear, Rachel, I will be glad to see you at dinner.
 
 ***
 ## ex_3-5
-```
+```python
 friends = ['monica', 'phebe', 'rachel']
 print('Dear, ' + friends[0].title() + ', I will be glad to see you at dinner.')
 print('Dear, ' + friends[1].title() + ', I will be glad to see you at dinner.')
@@ -103,7 +104,7 @@ Dear, Rachel, I will be glad to see you at dinner.
 ```
 ***
 ## ex_3-6
-```
+```python
 friends = ['monica', 'phebe', 'rachel']
 print('Dear, ' + friends[0].title() + ', I will be glad to see you at dinner.')
 print('Dear, ' + friends[1].title() + ', I will be glad to see you at dinner.')
@@ -149,7 +150,7 @@ Dear, Joey, I will be glad to see you at dinner.
 ```
 ***
 ## ex_3-7
-```
+```python
 friends = ['monica', 'phebe', 'rachel']
 print('Dear, ' + friends[0].title() + ', I will be glad to see you at dinner.')
 print('Dear, ' + friends[1].title() + ', I will be glad to see you at dinner.')
@@ -243,7 +244,7 @@ Dear, Rachel, I will be glad to see you at dinner. The decision is final.
 ```
 ***
 ## ex_3-8
-```
+```python
 countries = ['ukraine', 'netherlands', 'france', 'belgium', 'georgia']
 print('\n')
 
@@ -291,9 +292,6 @@ print('\n')
 ```
 
 ```
-python chapter_3/ex_3-8.py
-
-
 Початковий перелік країн:
 ['ukraine', 'netherlands', 'france', 'belgium', 'georgia']
 
@@ -332,7 +330,7 @@ python chapter_3/ex_3-8.py
 ```
 ***
 ## ex_3-9
-```
+```python
 friends = ['monica', 'phebe', 'rachel']
 sum = len(friends)
 print(sum)
@@ -344,7 +342,7 @@ PS D:\python-crash-course-2022> python chapter_3/ex_3-9.py
 ```
 ***
 ## ex_3-10
-```
+```python
 print('Add list: ')
 mountains = ['hoverla', 'brebeneskul', 'pip ivan chornohora', 'petros', 'hutyn tomnatyk', 'rebra', 'menchul', 'pip ivan', 'turkul', 'breskul']
 print(mountains)

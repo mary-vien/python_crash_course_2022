@@ -2,7 +2,7 @@
  ***
 ## ex_2-1
 
-```
+```python
 message = "Hello Python world!"
 print(message)
 ```
@@ -12,7 +12,7 @@ Hello Python world!
 ```
 ***
 ## ex_2-2
-```
+```python
 message = "Hello Python world!"
 print(message)
 
@@ -94,7 +94,7 @@ python!
 
 ## ex_2-3
 
-```
+```python
 name = 'Діма'
 print('Привіт, '+name.title() + ', дивись, я роблю домашку!!') 
 ```
@@ -106,7 +106,7 @@ PS D:\python-crash-course-2022> python chapter_2/ex_2-3.py
 
 ## ex_2-4
 
-```
+```python
 name = 'mariia valeriivna popach'
 print(name.lower())
 print(name.upper())
@@ -121,7 +121,7 @@ Mariia Valeriivna Popach
 ```
 ***
 ## ex_2-5
-```
+```python
 name = 'тарас шевченко'
 quote = 'Борітеся – поборете! Вам Бог помагає! За вас правда, за вас слава! І воля святая!'
 print(name.title() + ' колись казав, "' + quote + '"')
@@ -134,7 +134,7 @@ PS D:\python-crash-course-2022> python chapter_2/ex_2-5.py
 
 ***
 ## ex_2-6
-```
+```python
 first_name = 'тарас'
 last_name = 'шевченко'
 full_name = first_name + ' ' + last_name
@@ -155,7 +155,7 @@ PS D:\python-crash-course-2022> python chapter_2/ex_2-6.py
 ***
 ## ex_2-7
 знак "!" тут для розуміння кількості пропусків
-```
+```python
 name = '\n\t\t\tmariia\t\t\t'
 print(name.title()+ '!')
 print(name.title().rstrip() + '!')
@@ -175,7 +175,7 @@ Mariia!
 
 ***
 ## ex_2-8
-```
+```python
 print(5+3)
 print(15-7)
 print(2*4)
@@ -193,7 +193,7 @@ PS D:\python-crash-course-2022> python chapter_2/ex_2-8.py
 ```
 ***
 ## ex_2-9
-```
+```python
 number = 28
 message = 'Маша робила цю домашку ' + str(number) + ' серпня ввечері'
 print(message)
@@ -205,7 +205,7 @@ PS D:\python-crash-course-2022> python chapter_2/ex_2-9.py
 ```
 ***
 ## ex_2-10
-```
+```python
 ## пишу своє число
 number = 28
 ## пишу склад повідомлення: слова + своє число + слова
