@@ -266,3 +266,35 @@ Friend`s food: Falafel
 Friend`s food: Carrot Cake
 Friend`s food: Ice Cream
 ```
+
+***
+## ex_4-13
+```python
+print('Original menu: ')
+foods = ('scrambled eggs', 'salmon', 'oatmeal', 'orange juice', 'coffee')
+for food in foods:
+    print(food.title())
+
+print('\nModified menu: ')
+foods = ('pasta', 'salmon', 'oatmeal', 'orange juice', 'tea')
+for food in foods:
+    print(food.title())
+```
+
+```
+PS D:\python-crash-course-2022>  python chapter_4/ex_4-13.py
+Original menu: 
+Scrambled Eggs
+Salmon
+Oatmeal
+Orange Juice
+Coffee
+
+Modified menu:
+Pasta
+Salmon
+Oatmeal
+Orange Juice
+Tea
+```
+***
