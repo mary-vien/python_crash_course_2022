@@ -235,3 +235,87 @@ You really like raspberry!
 ***
 ## ex_5-8
 ```python
+users = ['admin', 'mary', 'cary', 'mariia',
+          'vasyl', 'marko', 'ivan']
+for user in users:
+    if user == 'admin':
+        print(f'Hello {user}, would you like to see a status report?')
+    else:
+        print(f'Hello {user.title()}, thank you for logging in again!')
+
+```
+
+```
+Hello admin, would you like to see a status report?
+Hello Mary, thank you for logging in again!
+Hello Cary, thank you for logging in again!
+Hello Mariia, thank you for logging in again!
+Hello Vasyl, thank you for logging in again!
+Hello Marko, thank you for logging in again!
+Hello Ivan, thank you for logging in again!
+```
+***
+## ex_5-9
+```python
+users = []
+if users:
+    for user in users:
+        print(f'Hello {user.title()}, thank you for logging in again!')
+else:
+     print(f'We need to find some users!')
+```
+
+```
+We need to find some users!
+```
+***
+## ex_5-10
+```python
+current_users = ['mary', 'cary', 'mariia',
+                'vasyl', 'matvii', 'Ivan']
+new_users = ['iryna', 'matvii', 'IVAN', 'arthur', 'anna']
+
+
+for new_user in new_users:
+    if new_user.lower() in list(map(lambda x: x.lower(), current_users)): 
+        print(f'Username {new_user} not available. Choose a new username')
+    else:
+        print(f'Username {new_user} is available')
+        
+```
+
+```
+Username iryna is available
+Username matvii not available. Choose a new username
+Username IVAN not available. Choose a new username
+Username arthur is available
+Username anna is available
+```
+***
+## ex_5-11
+```python
+numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9',]
+
+for number in numbers:
+    if number == '1':
+        print(f'{number}st')
+    elif number == '2':
+        print(f'{number}nd')
+    elif number == '3':
+        print(f'{number}rd')
+    else:
+        print(f'{number}th')
+```
+
+```
+1st
+2nd
+3rd
+4th
+5th
+6th
+7th
+8th
+9th
+```
+***
