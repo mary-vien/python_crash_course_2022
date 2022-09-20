@@ -218,3 +218,279 @@ Max, please take part in the survey.
 ***
 ## ex_6-7
 ```python
+emusk = {
+                'first_name' : 'elon',
+                'last_name' : 'musk',
+                'age': '51',
+                'city': 'los angeles',
+                }
+
+fmercury = {
+                'first_name' : 'freddie',
+                'last_name' : 'mercury',
+                'age': '45',
+                'city': 'zanzibar',
+                }
+
+hcavill = {
+                'first_name' : 'henry',
+                'last_name' : 'cavill',
+                'age': '39',
+                'city': 'saint helier',
+                }
+
+peoples = [emusk, fmercury, hcavill]
+
+for people in peoples:
+    print(people)
+```
+
+```
+{'first_name': 'elon', 'last_name': 'musk', 'age': '51', 'city': 'los angeles'}
+{'first_name': 'freddie', 'last_name': 'mercury', 'age': '45', 'city': 'zanzibar'}
+{'first_name': 'henry', 'last_name': 'cavill', 'age': '39', 'city': 'saint helier'}
+```
+***
+##  ex_6-8
+```python
+cary = {
+        'kind': 'cat',
+        'owner': 'mary'
+        }
+
+mary = {
+        'kind': 'cat',
+        'owner': 'mary'
+        }
+
+maxwell = {
+           'kind': 'dog',
+           'owner': 'domin'
+           }
+
+kit  = {
+        'kind': 'cat',
+        'owner': 'ivanka'
+        }
+
+pets = [cary, mary, maxwell, kit]
+for pet in pets:    
+    print(pet)
+```
+```
+{'kind': 'cat', 'owner': 'mary'}
+{'kind': 'cat', 'owner': 'mary'}
+{'kind': 'dog', 'owner': 'domin'}
+{'kind': 'cat', 'owner': 'ivanka'}
+```
+***
+## ex_6-9
+```python
+favorite_places = {
+                    'mary': ['orangery', 'cinema', 'amsterdam'],
+                    'vasyl': ['cinema', 'amsterdam', 'gogi'],
+                    'oleksii': ['dnipro', 'orangery',],
+                    'cary': ['sofa', 'bed', 'blanket'],
+                    }
+
+for person, places in favorite_places.items():
+    print(f"\n{person.title()}'s favorite place is: ")
+    for place in places:
+        print(f'\t{place}')
+```
+```
+Mary's favorite place is:
+        orangery
+        cinema
+        amsterdam
+
+Vasyl's favorite place is:
+        cinema
+        amsterdam
+        gogi
+
+Oleksii's favorite place is:
+        dnipro
+        orangery
+
+Cary's favorite place is:
+        sofa
+        bed
+        blanket
+```
+***
+## ex_6-10
+```python
+persons = {
+        'mariia' : ['25', '17', '118'],
+        'vasyl' : ['27', '96', '1986'],
+        'cary': ['3', '11', '176'],
+        'mary': ['2', '13', '88'],
+        'maxym': ['23', '153', '538'],
+         }
+
+for person, numbers in persons.items():
+    print(f"\n{person.title()}'s favorite numbers are: ")
+    for number in numbers:
+        print(f'\t{number}')
+```
+```
+Mariia's favorite numbers are:
+        25
+        17
+        118
+
+Vasyl's favorite numbers are:
+        27
+        96
+        1986
+
+Cary's favorite numbers are:
+        3
+        11
+        176
+
+Mary's favorite numbers are:
+        2
+        13
+        88
+
+Maxym's favorite numbers are:
+        23
+        153
+        538
+```
+***
+## ex_6-11
+```python
+cities = {
+        'kyiv': {
+        'country': 'ukraine', 
+        'population': 2962180, 
+        'fact': "The city's name is said to derive from the name of Kyi, one of its four legendary founders."
+        },
+
+        'oslo': {
+        'country': 'norway',
+        'population': 702543,
+        'fact': 'Oslo was founded as a city at the end of the Viking Age in 1040 under the name Ánslo, and established as a kaupstad or trading place in 1048 by Harald Hardrada.'
+        },
+        
+        'copenhagen': {
+            'country': 'denmark',
+            'population': 809314,
+            'fact': 'Originally a Viking fishing village established in the 10th century in the vicinity of what is now Gammel Strand, Copenhagen became the capital of Denmark in the early 15th century.'
+            },
+        }
+
+for city, city_info in cities.items():
+    print(f'\n{city.title()}')
+    for key, value in city_info.items():
+            print(f'\n\t{key.title()}:')
+            print(f'\t{value}')
+```
+```
+Kyiv
+
+        Country:
+        ukraine
+
+        Population:
+        2962180
+
+        Fact:
+        The city's name is said to derive from the name of Kyi, one of its four legendary founders.
+
+Oslo
+
+        Country:
+        norway
+
+        Population:
+        702543
+
+        Fact:
+        Oslo was founded as a city at the end of the Viking Age in 1040 under the name Ánslo, and established as a kaupstad or trading place in 1048 by Harald Hardrada.
+
+Copenhagen
+
+        Country:
+        denmark
+
+        Population:
+        809314
+
+        Fact:
+        Originally a Viking fishing village established in the 10th century in the vicinity of what is now Gammel Strand, Copenhagen became the capital of Denmark in the early 15th century.
+```
+***
+## ex_6-11.2
+```python
+cities = {
+        'kyiv': {
+        'country': 'ukraine', 
+        'population': 2962180, 
+        'fact': "The city's name is said to derive from the name of Kyi, one of its four legendary founders."
+        },
+
+        'oslo': {
+        'country': 'norway',
+        'population': 702543,
+        'fact': 'Oslo was founded as a city at the end of the Viking Age in 1040 under the name Ánslo, and established as a kaupstad or trading place in 1048 by Harald Hardrada.'
+        },
+        
+        'copenhagen': {
+            'country': 'denmark',
+            'population': 809314,
+            'fact': 'Originally a Viking fishing village established in the 10th century in the vicinity of what is now Gammel Strand, Copenhagen became the capital of Denmark in the early 15th century.'
+            },
+        }
+
+for city, city_info in cities.items():
+    print(f'\n{city.title()}')
+    country = city_info['country']
+    population = city_info['population']
+    fact = city_info['fact']
+    print(f'\t{city.title()} is located in {country.title()}. \n\tPopulation of {city.title()} is {population} people. \n\tInteresting fact about {city.title()}: {fact} ')
+```
+```
+Kyiv
+        Kyiv is located in Ukraine.
+        Population of Kyiv is 2962180 people.
+        Interesting fact about Kyiv: The city's name is said to derive from the name of Kyi, one of its four legendary founders.
+
+Oslo
+        Oslo is located in Norway.
+        Population of Oslo is 702543 people.
+        Interesting fact about Oslo: Oslo was founded as a city at the end of the Viking Age in 1040 under the name Ánslo, and established as a kaupstad or trading place in 1048 by Harald Hardrada.
+
+Copenhagen
+        Copenhagen is located in Denmark.
+        Population of Copenhagen is 809314 people.
+        Interesting fact about Copenhagen: Originally a Viking fishing village established in the 10th century in the vicinity of what is now Gammel Strand, Copenhagen became the capital of Denmark in the early 15th century.
+```
+***
+## ex_6-12
+```python
+famous_person = {
+                'first_name' : 'elon',
+                'last_name' : 'musk',
+                'age': '51',
+                'city': 'los angeles',
+                }
+
+for key, value in famous_person.items():
+    print(key.title())
+    print(f'\t{value.title()}')
+```
+```
+First_Name
+        Elon
+Last_Name
+        Musk
+Age
+        51
+City
+        Los Angeles
+```
+
