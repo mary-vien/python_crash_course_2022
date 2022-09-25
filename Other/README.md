@@ -75,3 +75,42 @@ x = bytes(5)	##bytes
 x = bytearray(5)	##bytearray	
 x = memoryview(bytes(5))	##memoryview
 ```
+***
+```python
+def get_formatted_name(first_name, last_name):
+    full_name = first_name + ' ' + last_name
+    return full_name.title()
+while True:
+    print("\nPlease tell me your name:")
+    print("(enter 'q' at any time to quit)")
+
+    f_name = input("First name: ")
+    if f_name == 'q':
+        break
+
+    l_name = input("Last name: ")
+    if l_name == 'q':
+        break
+
+    formatted_name = get_formatted_name(f_name, l_name)
+    print("\nHello, " + formatted_name + "!")
+```
+***
+```python
+
+# Начинаем с двух списков: пользователей для проверки
+# и пустого списка для хранения проверенных пользователей.
+unconfirmed_users = ['alice', 'brian', 'candace']
+confirmed_users = []
+# Проверяем каждого пользователя, пока остаются непроверенные
+# пользователи. Каждый пользователь, прошедший проверку,
+# перемещается в список проверенных.
+while unconfirmed_users:
+    current_user = unconfirmed_users.pop()
+    print("Verifying user: " + current_user.title())
+    confirmed_users.append(current_user)
+# Вывод всех проверенных пользователей.
+    print("\nThe following users have been confirmed:")
+    for confirmed_user in confirmed_users:
+        print(confirmed_user.title())
+```
