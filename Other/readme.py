@@ -7,4 +7,3 @@ users = {'1' : {'name': 'mariia', 'age': 25, 'gender': 'female', 'children': []}
 for value in users.values():
     if value ['gender'] == 'female' :
         print(value)
-
